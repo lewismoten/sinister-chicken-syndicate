@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "jasmine"
+    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/lewismoten/Sinister-Chicken-Syndicate#readme",
   "devDependencies": {
+    "istanbul": "^0.4.3",
     "jasmine": "^2.4.1"
   }
 }

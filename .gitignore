@@ -5,6 +5,7 @@
 
 # working files
 /build
+/coverage
 *.log
 
 # operating system files

@@ -1,20 +1,20 @@
 {
   "ecmaFeatures": {
-    "binaryLiterals": false,
-    "blockBindings": false,
-    "defaultParams": false,
-    "forOf": false,
-    "generators": false,
-    "objectLiteralComputedProperties": false,
-    "objectLiteralDuplicateProperties": false,
-    "objectLiteralShorthandMethods": false,
-    "objectLiteralShorthandProperties": false,
-    "octalLiterals": false,
-    "regexUFlag": false,
-    "regexYFlag": false,
-    "templateStrings": false,
-    "unicodeCodePointEscapes": false,
-    "jsx": false
+    "binaryLiterals": true,
+    "blockBindings": true,
+    "defaultParams": true,
+    "forOf": true,
+    "generators": true,
+    "objectLiteralComputedProperties": true,
+    "objectLiteralDuplicateProperties": true,
+    "objectLiteralShorthandMethods": true,
+    "objectLiteralShorthandProperties": true,
+    "octalLiterals": true,
+    "regexUFlag": true,
+    "regexYFlag": true,
+    "templateStrings": true,
+    "unicodeCodePointEscapes": true,
+    "jsx": true
   },
 
   "env": {
@@ -26,7 +26,8 @@
     "phantomjs": false,
     "jquery": false,
     "prototypejs": false,
-    "shelljs": false
+    "shelljs": false,
+    "es6": true
   },
 
   "globals": {
