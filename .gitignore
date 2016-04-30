@@ -1,0 +1,18 @@
+
+# packages
+/node_modules
+/bower_components
+
+# working files
+/build
+*.log
+
+# operating system files
+.DS_Store
+
+# merge files
+*.orig
+*_REMOTE_*
+*_LOCAL_*
+*_BASE_*
+*_BACKUP_*

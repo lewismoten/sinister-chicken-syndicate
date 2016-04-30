@@ -1,0 +1,27 @@
+{
+  "name": "sinister-chicken-syndicate",
+  "version": "1.0.0",
+  "description": "Sample test project",
+  "main": "dist/sinister-chicken-syndicate.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lewismoten/Sinister-Chicken-Syndicate.git"
+  },
+  "keywords": [
+    "template",
+    "javascript",
+    "project"
+  ],
+  "author": "Lewis Edward Moten III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lewismoten/Sinister-Chicken-Syndicate/issues"
+  },
+  "homepage": "https://github.com/lewismoten/Sinister-Chicken-Syndicate#readme"
+}
