@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "spec"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/lewismoten/Sinister-Chicken-Syndicate/issues"
   },
-  "homepage": "https://github.com/lewismoten/Sinister-Chicken-Syndicate#readme"
+  "homepage": "https://github.com/lewismoten/Sinister-Chicken-Syndicate#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
 }
