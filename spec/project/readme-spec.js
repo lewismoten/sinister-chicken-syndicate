@@ -19,6 +19,16 @@ describe('project readme', function() {
 
   }
 
+  describe('Description', function() {
+
+    it('is from package', function() {
+
+      expect(readme).toContain(packageJson.description);
+
+    });
+
+  });
+
   describe('License', function() {
 
     let license = readText('LICENSE.md');

@@ -7,8 +7,7 @@
 [![license](https://img.shields.io/badge/license-ISC-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/lewismoten/sinister-chicken-syndicate/master/LICENSE)
 [![Gitter](https://img.shields.io/gitter/room/lewismoten/sinister-chicken-syndicate.js.svg?style=flat-square)](https://gitter.im/lewismoten/sinister-chicken-syndicate)
 
-This is a template project to get up and running quickly
-with a JavaScript project.
+A sample JavaSript project with continuous integration support
 
 # License
 

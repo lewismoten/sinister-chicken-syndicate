@@ -1,7 +1,7 @@
 {
   "name": "sinister-chicken-syndicate",
   "version": "1.0.0",
-  "description": "Sample test project",
+  "description": "A sample JavaSript project with continuous integration support",
   "main": "dist/sinister-chicken-syndicate.js",
   "directories": {
     "doc": "docs"
