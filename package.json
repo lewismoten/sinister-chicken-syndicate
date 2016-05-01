@@ -1,7 +1,7 @@
 {
   "name": "sinister-chicken-syndicate",
   "version": "1.0.0",
-  "description": "A sample JavaSript project with continuous integration support",
+  "description": "A sample Node.js project with continuous integration support",
   "main": "dist/sinister-chicken-syndicate.js",
   "directories": {
     "doc": "docs"
@@ -16,6 +16,7 @@
   "keywords": [
     "template",
     "javascript",
+    "node.js",
     "project"
   ],
   "author": "Lewis Edward Moten III",

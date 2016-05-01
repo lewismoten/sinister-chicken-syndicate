@@ -7,7 +7,7 @@
 [![license](https://img.shields.io/badge/license-ISC-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/lewismoten/sinister-chicken-syndicate/master/LICENSE.md)
 [![Join the chat at https://gitter.im/lewismoten/sinister-chicken-syndicate](https://badges.gitter.im/lewismoten/sinister-chicken-syndicate.svg)](https://gitter.im/lewismoten/sinister-chicken-syndicate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-A sample JavaSript project with continuous integration support
+A sample Node.js project with continuous integration support
 
 # Setting up a new project
 
