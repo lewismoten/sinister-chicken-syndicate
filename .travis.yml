@@ -7,3 +7,11 @@ install:
 before_script:
   - gulp build
 script: gulp test
+deploy:
+  provider: releases
+  file:
+    - "dist/sinister-chicken-syndicate.js"
+    - "dist/sinister-chicken-syndicate.js.map"
+  skip_cleanup: true
+  on:
+    tags: true
