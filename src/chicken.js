@@ -1,9 +1,9 @@
-(function makeChicken() {
+(function makeChicken(farm) {
 
   'use strict';
 
-  global.farm.chicken = {
+  farm.chicken = {
     name: 'Mr. Chicken'
   };
 
-}());
+}(farm));
