@@ -1,4 +1,7 @@
 language: node_js
+os:
+  - linux
+  - os
 node_js:
   - 6.0.0
 install:
