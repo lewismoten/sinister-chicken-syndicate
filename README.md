@@ -1,5 +1,7 @@
 # Sinister Chicken Syndicate
 
+[![Join the chat at https://gitter.im/lewismoten/Sinister-Chicken-Syndicate](https://badges.gitter.im/lewismoten/Sinister-Chicken-Syndicate.svg)](https://gitter.im/lewismoten/Sinister-Chicken-Syndicate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Travis](https://img.shields.io/travis/lewismoten/Sinister-Chicken-Syndicate.svg?style=flat-square&label=linux%20%26%20osx%20build)](https://travis-ci.org/lewismoten/Sinister-Chicken-Syndicate)
 [![AppVeyor](https://img.shields.io/appveyor/ci/lewismoten/Sinister-Chicken-Syndicate/master.svg?style=flat-square&label=windows%20build)](https://ci.appveyor.com/project/lewismoten/Sinister-Chicken-Syndicate)
 [![Code Climate](https://img.shields.io/codeclimate/github/lewismoten/Sinister-Chicken-Syndicate.svg?style=flat-square)](https://codeclimate.com/github/lewismoten/Sinister-Chicken-Syndicate)
