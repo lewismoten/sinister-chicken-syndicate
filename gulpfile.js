@@ -10,12 +10,14 @@
     jasmine = require('gulp-jasmine'),
     config = require('./package.json');
 
-  gulp.task('build', buildJs);
-  gulp.task('test', ['build', 'pre-test'], test);
+  gulp.task('build', ['build-raw', 'build-min']);
+  gulp.task('build-raw', buildRaw);
+  gulp.task('build-min', buildMin);
 
+  gulp.task('test', ['build', 'pre-test'], test);
   gulp.task('pre-test', preTest);
 
-  function buildJs() {
+  function buildMin() {
 
     return gulp
       .src([
@@ -24,6 +26,20 @@
       ], {base: 'src'})
       .pipe(sourcemaps.init())
       .pipe(uglify())
+      .pipe(concat(config.main.replace('.js', '.min.js')))
+      .pipe(sourcemaps.write('./'))
+      .pipe(gulp.dest('.'));
+
+  }
+
+  function buildRaw() {
+
+    return gulp
+      .src([
+        'src/index.js',
+        'src/**/*.js'
+      ], {base: 'src'})
+      .pipe(sourcemaps.init())
       .pipe(concat(config.main))
       .pipe(sourcemaps.write('./'))
       .pipe(gulp.dest('.'));
