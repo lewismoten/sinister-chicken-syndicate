@@ -8,6 +8,7 @@ environment:
 install:
     - npm install
     - npm install -g bower
+    - npm install -g gulp
     - bower install
 
 test_script:
