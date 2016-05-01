@@ -115,7 +115,7 @@ describe('project readme', function() {
     it('has a status image', function() {
 
       expect(readme).toContain(
-        shields + 'gitter/room/' + userRepo + '.js.svg');
+        'https://badges.gitter.im/' + userRepo + '.svg');
 
     });
 
