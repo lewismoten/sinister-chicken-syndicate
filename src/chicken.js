@@ -1,9 +1,9 @@
-(function makeChicken(window) {
+(function makeChicken(farm) {
 
   'use strict';
 
-  window.farm.chicken = {
+  farm.chicken = {
     name: 'Mr. Chicken'
   };
 
-}(window));
+}(farm));

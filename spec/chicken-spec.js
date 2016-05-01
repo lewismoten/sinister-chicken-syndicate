@@ -2,12 +2,9 @@ describe('farm', function() {
 
   'use strict';
 
-  let farm = {},
-    window = {
-      farm: farm
-    };
+  let farm = {};
 
-  global.window = window;
+  global.farm = farm;
   require('../src/chicken.js');
 
   it('has a chicken', function() {

@@ -1,8 +1,16 @@
+var module,
+  farm = {};
 
-(function initialize(window) {
+(function initialize(module) {
 
   'use strict';
 
-  window.farm = {}; // eslint-disable-line no-unused-vars
+  farm = {};
 
-}(window));
+  if (module && module.exports) {
+
+    module.exports = farm;
+
+  }
+
+}(module));

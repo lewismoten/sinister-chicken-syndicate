@@ -1,20 +1,28 @@
+var module,
+  farm = {};
 
-(function initialize(window) {
-
-  'use strict';
-
-  window.farm = {}; // eslint-disable-line no-unused-vars
-
-}(window));
-
-(function makeChicken(window) {
+(function initialize(module) {
 
   'use strict';
 
-  window.farm.chicken = {
+  farm = {};
+
+  if (module && module.exports) {
+
+    module.exports = farm;
+
+  }
+
+}(module));
+
+(function makeChicken(farm) {
+
+  'use strict';
+
+  farm.chicken = {
     name: 'Mr. Chicken'
   };
 
-}(window));
+}(farm));
 
 //# sourceMappingURL=sinister-chicken-syndicate.js.map
