@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lewismoten/Sinister-Chicken-Syndicate.git"
+    "url": "git+https://github.com/lewismoten/sinister-chicken-syndicate.git"
   },
   "keywords": [
     "template",
@@ -21,9 +21,9 @@
   "author": "Lewis Edward Moten III",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lewismoten/Sinister-Chicken-Syndicate/issues"
+    "url": "https://github.com/lewismoten/sinister-chicken-syndicate/issues"
   },
-  "homepage": "https://github.com/lewismoten/Sinister-Chicken-Syndicate#readme",
+  "homepage": "https://github.com/lewismoten/sinister-chicken-syndicate#readme",
   "devDependencies": {
     "gulp-istanbul": "^0.10.4",
     "gulp-jasmine": "^2.3.0",
