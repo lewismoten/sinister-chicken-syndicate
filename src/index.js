@@ -1,8 +1,8 @@
 
-(function initialize(global) {
+(function initialize(window) {
 
   'use strict';
 
-  global.farm = {}; // eslint-disable-line no-unused-vars
+  window.farm = {}; // eslint-disable-line no-unused-vars
 
-}(global));
+}(window));

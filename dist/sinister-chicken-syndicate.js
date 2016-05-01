@@ -1,20 +1,20 @@
 
-(function initialize(global) {
+(function initialize(window) {
 
   'use strict';
 
-  global.farm = {}; // eslint-disable-line no-unused-vars
+  window.farm = {}; // eslint-disable-line no-unused-vars
 
-}(global));
+}(window));
 
-(function makeChicken(farm) {
+(function makeChicken(window) {
 
   'use strict';
 
-  farm.chicken = {
+  window.farm.chicken = {
     name: 'Mr. Chicken'
   };
 
-}(farm));
+}(window));
 
 //# sourceMappingURL=sinister-chicken-syndicate.js.map

@@ -8,7 +8,9 @@
     sourcemaps = require('gulp-sourcemaps'),
     istanbul = require('gulp-istanbul'),
     jasmine = require('gulp-jasmine'),
-    config = require('./package.json');
+    config = require('./package.json'),
+    gutil = require('gulp-util'),
+    webserver = require('gulp-webserver');
 
   gulp.task('build', ['build-raw', 'build-min']);
   gulp.task('build-raw', buildRaw);
@@ -16,6 +18,18 @@
 
   gulp.task('test', ['build', 'pre-test'], test);
   gulp.task('pre-test', preTest);
+
+  gulp.task('web', ['build', 'watch'], webStart);
+  gulp.task('watch', watchFiles);
+
+  gulp.task('default', ['build']);
+
+  function watchFiles() {
+
+    gulp.watch('src/**/*.js', ['build', 'test']);
+    gulp.watch('spec/**/*-spec.js', ['test']);
+
+  }
 
   function buildMin() {
 
@@ -48,7 +62,8 @@
 
   function preTest() {
 
-    return gulp.src(['src/**/*.js'])
+    return gulp
+      .src(['src/**/*.js'])
       .pipe(istanbul())
       .pipe(istanbul.hookRequire());
 
@@ -56,10 +71,31 @@
 
   function test() {
 
-    return gulp.src(['spec/**/*-spec.js'])
+    return gulp
+      .src(['spec/**/*-spec.js'])
       .pipe(jasmine())
+      .on('error', swallowError)
       .pipe(istanbul.writeReports())
       .pipe(istanbul.enforceThresholds({thresholds: {global: 90}}));
+
+  }
+
+  function webStart() {
+
+    return gulp
+      .src('.')
+      .pipe(webserver({
+        livereload:       true,
+        directoryListing: true,
+        open:             true
+      }));
+
+  }
+
+  function swallowError(error) {
+
+    gutil.log(error.toString());
+    this.emit('end');
 
   }
 

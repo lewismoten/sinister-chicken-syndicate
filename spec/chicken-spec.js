@@ -1,10 +1,13 @@
-describe('sample test', function() {
+describe('farm', function() {
 
   'use strict';
 
-  let farm = {};
+  let farm = {},
+    window = {
+      farm: farm
+    };
 
-  global.farm = farm;
+  global.window = window;
   require('../src/chicken.js');
 
   it('has a chicken', function() {

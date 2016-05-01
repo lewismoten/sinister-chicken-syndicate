@@ -2,13 +2,15 @@ describe('farm', function() {
 
   'use strict';
 
-  global.farm = 'default';
+  let window = {};
+
+  global.window = window;
 
   require('../src/index.js');
 
   it('has a farm', function() {
 
-    expect(global.farm).toEqual({});
+    expect(window.farm).toEqual({});
 
   });
 
