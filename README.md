@@ -5,6 +5,7 @@
 [![Code Climate](https://img.shields.io/codeclimate/github/lewismoten/Sinister-Chicken-Syndicate.svg?style=flat-square)](https://codeclimate.com/github/lewismoten/Sinister-Chicken-Syndicate)
 [![David](https://img.shields.io/david/lewismoten/Sinister-Chicken-Syndicate.svg?style=flat-square)](https://david-dm.org/lewismoten/Sinister-Chicken-Syndicate)
 [![license](https://img.shields.io/badge/license-ISC-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/lewismoten/Sinister-Chicken-Syndicate/master/LICENSE)
+[![Gitter](https://img.shields.io/gitter/room/lewismoten/Sinister-Chicken-Syndicate.js.svg?style=flat-square)](https://gitter.im/lewismoten/Sinister-Chicken-Syndicate)
 
 This is a template project to get up and running quickly
 with a JavaScript project.
