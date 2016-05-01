@@ -7,6 +7,7 @@ environment:
 
 install:
     - npm install
+    - npm install -g bower
     - bower install
 
 test_script:
