@@ -5,6 +5,11 @@ describe('project package', function() {
   let packageJson = require('../../package.json'),
     bowerJson = require('../../bower.json'),
     semver = require('semver-regex'),
+    config = require('../config.json'),
+    userName = config.userName,
+    repositoryName = config.repositoryName,
+    userRepo = userName + '/' + repositoryName,
+    projectUrl = 'https://github.com/' + userRepo,
     fs = require('fs');
 
   describe('name', function() {
@@ -171,6 +176,34 @@ describe('project package', function() {
         fs.accessSync(main, fs.F_OK);
 
       }).not.toThrow();
+
+    });
+
+  });
+
+  describe('urls', function() {
+
+    it('specifies repository location', function() {
+
+      expect(packageJson.repository.url).toBe('git+' + projectUrl + '.git');
+
+    });
+
+    it('specifies bug reporting location', function() {
+
+      expect(packageJson.bugs.url).toBe(projectUrl + '/issues');
+
+    });
+
+    it('specifies home page', function() {
+
+      expect(packageJson.homepage).toBe(projectUrl + '#readme');
+
+    });
+
+    it('contains repo name in main', function() {
+
+      expect(packageJson.main).toBe('dist/' + repositoryName + '.js');
 
     });
 

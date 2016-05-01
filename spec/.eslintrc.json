@@ -3,6 +3,7 @@
     "jasmine": true
   },
   "rules": {
-    "func-names": 0
+    "func-names": 0,
+    "no-sync": 0
   }
 }
