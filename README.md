@@ -5,7 +5,8 @@
 [![Code Climate](https://img.shields.io/codeclimate/github/lewismoten/sinister-chicken-syndicate.svg?style=flat-square)](https://codeclimate.com/github/lewismoten/sinister-chicken-syndicate)
 [![David](https://img.shields.io/david/lewismoten/sinister-chicken-syndicate.svg?style=flat-square)](https://david-dm.org/lewismoten/sinister-chicken-syndicate)
 [![license](https://img.shields.io/badge/license-ISC-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/lewismoten/sinister-chicken-syndicate/master/LICENSE)
-[![Gitter](https://img.shields.io/gitter/room/lewismoten/sinister-chicken-syndicate.js.svg?style=flat-square)](https://gitter.im/lewismoten/sinister-chicken-syndicate)
+[![Join the chat at https://gitter.im/lewismoten/sinister-chicken-syndicate](https://badges.gitter.im/lewismoten/sinister-chicken-syndicate.svg)](https://gitter.im/lewismoten/sinister-chicken-syndicate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 A sample JavaSript project with continuous integration support
 
