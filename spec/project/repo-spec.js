@@ -6,7 +6,7 @@ describe('project repo', function() {
     bowerJson = require('../../bower.json'),
     fs = require('fs'),
     userName = 'lewismoten',
-    repositoryName = 'Sinister-Chicken-Syndicate',
+    repositoryName = 'sinister-chicken-syndicate',
     projectUrl = 'https://github.com/' + userName + '/' + repositoryName;
 
   describe('package', function() {
