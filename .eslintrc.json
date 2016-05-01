@@ -80,7 +80,7 @@
     "no-else-return": 1,
     "no-labels": 1,
     "no-eq-null": 1,
-    "no-eval": [2, {"allowIndirect": true}],
+    "no-eval": 2,
     "no-extend-native": 1,
     "no-extra-bind": 1,
     "no-fallthrough": 1,
