@@ -139,7 +139,7 @@ describe('project readme', function() {
     it('has a link to it', function() {
 
       expect(readme).toContain('https://raw.githubusercontent.com/' +
-        userRepo + '/master/LICENSE');
+        userRepo + '/master/LICENSE.md');
 
     });
 
