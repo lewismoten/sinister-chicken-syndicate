@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/lewismoten/Sinister-Chicken-Syndicate#readme",
   "devDependencies": {
+    "gulp-istanbul": "^0.10.4",
+    "gulp-jasmine": "^2.3.0",
     "istanbul": "^0.4.3",
     "jasmine": "^2.4.1"
   },
