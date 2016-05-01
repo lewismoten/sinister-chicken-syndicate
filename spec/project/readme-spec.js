@@ -35,7 +35,7 @@ describe('project readme', function() {
 
     it('is matches quoted license file', function() {
 
-      let quotedLicense = '\n ' + license.replace(/\n(\S)/g, '\n $1');
+      let quotedLicense = '\n  ' + license.replace(/\n(\S)/g, '\n  $1');
 
       expect(readme).toContain(quotedLicense);
 
