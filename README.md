@@ -9,6 +9,18 @@
 
 A sample JavaSript project with continuous integration support
 
+# Setting up a new project
+
+There are tests setup regarding the repository location and license. One you make a change to reflect the forked repository location or license, you will need to update all affected areas to get the tests to pass. See the `spec/project` folder for these tests.
+
+This project is setup to integrate with services that you will need to configure with a forked repository:
+
+1. Travis
+1. AppVeyor
+1. Code Climate
+1. David.
+1. Gitter
+
 # License
 
  Copyright (c) 2016, Lewis Edward Moten III
