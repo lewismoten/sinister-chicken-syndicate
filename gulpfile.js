@@ -11,7 +11,7 @@
     config = require('./package.json');
 
   gulp.task('build', buildJs);
-  gulp.task('test', ['pre-test'], test);
+  gulp.task('test', ['build', 'pre-test'], test);
 
   gulp.task('pre-test', preTest);
 
