@@ -1,0 +1,11 @@
+version: "{build}"
+
+platform: x64
+
+branches:
+    only:
+      - master
+
+clone_depth: 10
+
+skip_tags: true
