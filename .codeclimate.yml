@@ -1,9 +1,6 @@
 engines:
   eslint:
-    enabled: false
-    checks:
-      complexity:
-        enabled: true
+    enabled: true
     config:
       extensions:
         - .es6
