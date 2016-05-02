@@ -16,8 +16,9 @@
   gulp.task('build-raw', buildRaw);
   gulp.task('build-min', buildMin);
 
-  gulp.task('test', ['build', 'pre-test'], test);
-  gulp.task('pre-test', preTest);
+  gulp.task('test', ['build'], test);
+  gulp.task('test-cover', ['build', 'pre-cover'], testCover);
+  gulp.task('pre-cover', preCover);
 
   gulp.task('web', ['build', 'watch'], webStart);
   gulp.task('watch', watchFiles);
@@ -60,7 +61,7 @@
 
   }
 
-  function preTest() {
+  function preCover() {
 
     return gulp
       .src(['src/**/*.js'])
@@ -69,7 +70,7 @@
 
   }
 
-  function test() {
+  function testCover() {
 
     return gulp
       .src(['spec/**/*-spec.js'])
@@ -77,6 +78,15 @@
       .on('error', swallowError)
       .pipe(istanbul.writeReports())
       .pipe(istanbul.enforceThresholds({thresholds: {global: 90}}));
+
+  }
+
+  function test() {
+
+    return gulp
+      .src(['spec/**/*-spec.js'])
+      .pipe(jasmine())
+      .on('error', swallowError);
 
   }
 
