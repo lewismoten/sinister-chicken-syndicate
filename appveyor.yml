@@ -13,7 +13,7 @@ install:
 
 test_script:
     - gulp build
-    - gulp test
+    - gulp test-cover
 
 build: off
 
