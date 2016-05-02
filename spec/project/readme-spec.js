@@ -83,14 +83,14 @@ describe('project readme', function() {
 
     it('has a status image', function() {
 
-      expect(readme).toContain(
+      expect(readme.toLowerCase()).toContain(
         'https://codeclimate.com/github/' + userRepo + '/badges/coverage.svg');
 
     });
 
     it('has a link to it', function() {
 
-      expect(readme).toContain('https://codeclimate.com/github/' + userRepo);
+      expect(readme.toLowerCase()).toContain('https://codeclimate.com/github/' + userRepo);
 
     });
 
