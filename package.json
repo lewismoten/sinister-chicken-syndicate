@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/lewismoten/sinister-chicken-syndicate#readme",
   "devDependencies": {
+    "eslint": "^2.9.0",
     "gulp-istanbul": "^0.10.4",
     "gulp-jasmine": "^2.3.0",
     "gulp-util": "^3.0.7",
