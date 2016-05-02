@@ -81,7 +81,7 @@ describe('project readme', function() {
 
   describe('Code Climate', function() {
 
-    it('has a status image', function() {
+    it('has a code coverage image', function() {
 
       expect(readme.toLowerCase()).toContain(
         'https://codeclimate.com/github/' + userRepo + '/badges/coverage.svg');
@@ -90,9 +90,18 @@ describe('project readme', function() {
 
     it('has a link to it', function() {
 
-      expect(readme.toLowerCase()).toContain('https://codeclimate.com/github/' + userRepo);
+      expect(readme.toLowerCase()).toContain(
+        'https://codeclimate.com/github/' + userRepo);
 
     });
+
+    it('has a code climate image', function() {
+
+      expect(readme.toLowerCase()).toContain(
+        'https://codeclimate.com/github/' + userRepo + '/badges/gpa.svg');
+
+    });
+
 
   });
 
