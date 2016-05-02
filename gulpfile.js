@@ -76,8 +76,7 @@
       .src(['spec/**/*-spec.js'])
       .pipe(jasmine())
       .on('error', swallowError)
-      .pipe(istanbul.writeReports())
-      .pipe(istanbul.enforceThresholds({thresholds: {global: 90}}));
+      .pipe(istanbul.writeReports());
 
   }
 
