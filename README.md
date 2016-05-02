@@ -2,7 +2,9 @@
 
 [![Travis](https://img.shields.io/travis/lewismoten/sinister-chicken-syndicate.svg?style=flat-square&label=linux%20%26%20osx%20build)](https://travis-ci.org/lewismoten/sinister-chicken-syndicate)
 [![AppVeyor](https://img.shields.io/appveyor/ci/lewismoten/sinister-chicken-syndicate/master.svg?style=flat-square&label=windows%20build)](https://ci.appveyor.com/project/lewismoten/sinister-chicken-syndicate)
-[![Code Climate](https://img.shields.io/codeclimate/github/lewismoten/sinister-chicken-syndicate.svg?style=flat-square)](https://codeclimate.com/github/lewismoten/sinister-chicken-syndicate)
+
+[![Test Coverage](https://codeclimate.com/github/lewismoten/sinister-chicken-syndicate/badges/coverage.svg)](https://codeclimate.com/github/lewismoten/sinister-chicken-syndicate/coverage)
+
 [![David](https://img.shields.io/david/lewismoten/sinister-chicken-syndicate.svg?style=flat-square)](https://david-dm.org/lewismoten/sinister-chicken-syndicate)
 [![license](https://img.shields.io/badge/license-ISC-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/lewismoten/sinister-chicken-syndicate/master/LICENSE.md)
 [![Join the chat at https://gitter.im/lewismoten/sinister-chicken-syndicate](https://badges.gitter.im/lewismoten/sinister-chicken-syndicate.svg)](https://gitter.im/lewismoten/sinister-chicken-syndicate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

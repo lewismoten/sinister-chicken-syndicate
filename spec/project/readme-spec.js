@@ -84,7 +84,7 @@ describe('project readme', function() {
     it('has a status image', function() {
 
       expect(readme).toContain(
-        shields + 'codeclimate/github/' + userRepo + '.svg');
+        'https://codeclimate.com/github/' + userRepo + '/badges/coverage.svg');
 
     });
 
