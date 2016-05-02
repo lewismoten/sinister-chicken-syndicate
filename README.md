@@ -23,9 +23,16 @@ This project is setup to integrate with services that you will need to configure
  - Code Climate token: `https://codeclimate.com/repos/{repo id}/coverage_setup`. *Look at any language setup instructions to see the token.*
  - To skip a build, use `[ci skip]` in a commit
 1. AppVeyor
+- Create an account, link your GitHub account, and import your repo.
+- To skip a build, use `[ci skip]` in a commit
 1. Code Climate
+- Create an account, link to github, and import your repo.
+- Travis is used to report code coverage statistics to Code Climate.
+- Code Climate uses and older version of eslint that is not compatible with some of the new rules. ESLint been disabled in `.codeclimate.yml`
 1. David.
+- No setup required.
 1. Gitter
+- Create an account, link your GitHub account, and import your repo.
 
 # License
 
