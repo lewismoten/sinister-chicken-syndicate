@@ -18,7 +18,9 @@ This project is setup to integrate with services that you will need to configure
 
 1. Travis
  - Create an account, link your GitHub account, and import your repo.
- - Once a job is setup, go to the settings and add `CODECLIMATE_REPO_TOKEN` as an environment variable, and mark it so it is not displayed in the build log. ( `https://travis-ci.org/{user}/{repo}/settings` )
+ - Once a job is setup, go to the settings and add `CODECLIMATE_REPO_TOKEN` as an environment variable, and mark it so it is not displayed in the build log.
+ - Travis Settings: `https://travis-ci.org/{user}/{repo}/settings`
+ - Code Climate token: `https://codeclimate.com/repos/{repo id}/coverage_setup`. *Look at any language setup instructions to see the token.*
 1. AppVeyor
 1. Code Climate
 1. David.
