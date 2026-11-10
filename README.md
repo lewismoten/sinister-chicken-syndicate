@@ -1,3 +1,5 @@
+![sinister-chicken-syndicate: Node.js CI project template](docs/images/social-preview.png)
+
 # Sinister Chicken Syndicate
 
 [![Travis](https://img.shields.io/travis/lewismoten/sinister-chicken-syndicate.svg?style=flat-square&label=linux%20%26%20osx%20build)](https://travis-ci.org/lewismoten/sinister-chicken-syndicate)
